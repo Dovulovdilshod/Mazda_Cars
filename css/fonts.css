@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'icon';
+    src: url('../fonts/fa-regular-400.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'mazda';
+    src: url('../fonts/MazdaTypeCyrillic-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'mazda';
+    src: url('../fonts/MazdaTypeCyrillic-Bold.ttf') format('truetype');
+    font-weight: 700;
+}

@@ -1,0 +1,1319 @@
+/*   FONTS  CSS   */
+@import url('../css/fonts.css');
+/* GENERAL STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+p {
+    font-family: 'mazda';
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+/*      ICONS      */
+*::before,
+*::after {
+    font-family: 'icon';
+    font-weight: 400;
+}
+.paper--plane::before {
+    content: '\f1d8';
+    font-family: 'icon';
+    color: white;
+    font-weight: 400;
+}
+.phone::before {
+    content: '\f095';
+    font-family: 'icon';
+    color: white;
+    font-weight: 400;
+}
+.paper--plane {
+    padding: 14px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.phone {
+    padding: 14px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.left-arrow::before {
+    content: '\f060';
+    font-family: 'icon';
+    color: white;
+    font-weight: 400;
+}
+.right-arrow::before {
+    content: '\f061';
+    font-family: 'icon';
+    color: white;
+    font-weight: 400;
+}
+.foot-right-arrow::before {
+    content: '\f061';
+    font-family: 'icon';
+    color: white;
+    font-weight: 400;
+}
+.footer-phone::before {
+    content: '\f1d8';
+    font-family: 'icon';
+    color: white;
+    font-weight: 400;
+}
+.footer-paper--plane::before {
+    content: '\f095';
+    font-family: 'icon';
+    color: white;
+    font-weight: 400;
+}
+.comment-button-p2::before {
+    content: '\f4a6';
+    font-family: 'icon';
+    color: #fff;
+    font-weight: 400;
+}
+.comment-button-p2 {
+    position: relative;
+    top: -10px;
+    right: -590px;
+    z-index: 0;
+    padding: 17px;
+    background: #910A2D;
+    border-radius: 50%;
+    border: 5px solid #F5F5F5;
+}
+.left-arrow {
+    padding: 27px;
+    background: rgba(0, 0, 0, 0.47);
+    width: 70px;
+    height: 70px;
+    margin: 200px auto 200px;
+    border-radius: 50%;
+}
+.right-arrow {
+    content: '\f061';
+    padding: 27px;
+    background: rgba(0, 0, 0, 0.47);
+    width: 70px;
+    height: 70px;
+    margin: 202px auto 238px;
+    border-radius: 50%;
+}
+.foot-right-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: '\f061';
+    background: #910A2D;
+    padding: 10px 13px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.footer-paper--plane {
+    margin-left: 70px;
+}
+/* NAVBAR 1 */
+.navbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    gap: 35px;
+}
+.navbar--1 {
+    background: #000000;
+}
+.navbar--number {
+    font-family: Arial;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 15px;
+}
+.navbar--adress__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #B6B6B6;
+}
+.navbar-img {
+    width: 100px;
+    height: 100px;
+}
+.navbar--send__button {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+.navbar--list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    gap: 20px;
+}
+.navbar-burger {
+    width: 60px;
+    height: 60px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.navbar-burger span {
+    width: 100%;
+    height: 3px;
+    background: white;
+}
+/* NAVBAR 2 */
+.navbar2 {
+    display: flex;
+    justify-content: start;
+    background: #FFFFFF;
+}
+.navbar--link {
+    padding-bottom: 3px;
+    font-family: 'mazda';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #3C3C3C;
+    max-height: 19px;
+    transition: 0.2s;
+}
+.navbar--link:hover {
+    border-bottom: 3px solid #910A2D;
+}
+.the-line {
+    width: 100%;
+}
+/* HEADER 1 */
+.header--1 {
+    min-height: 506px;
+    background: url('../imgs/header1-back.png') center center / cover no-repeat;
+    display: flex;
+}
+.header1--content {
+    margin: 63px 0 300px;
+}
+.header1--title {
+    font-family: 'mazda';
+    letter-spacing: 0.25em;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+.header1--heading {
+    font-family: 'mazda';
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin: 2px 0 9px;
+}
+.header1--text {
+    max-width: 341px;
+    font-family: 'mazda';
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+/* HEADER 2 */
+.header--2 {
+    background: #f5f5f5;
+    padding: 57px auto 71px;
+}
+.header2 {
+    min-height: 593px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card-line {
+    width: 2px;
+    height: 100px;
+    background: #DBDBDB;
+}
+.header2--card {
+    width: 380px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+}
+.head2-card-text {
+    font-family: 'mazda';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #101015;
+    text-transform: uppercase;
+    margin: 42px 22px;
+}
+.head2-img1 {
+    margin: 36px 27px 35px 32px;
+}
+.head2-img2 {
+    margin: 36px 36px 35px 36px;
+}
+.head2-img3 {
+    margin: 36px 34px 35px 32px;
+}
+.head2-card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+/* HEADER 3 */
+.header3 {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.head3-title {
+    font-family: 'mazda';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #101015;
+    letter-spacing: 0.12em;
+    text-align: center;
+    margin: 67px 0 28px;
+}
+.heading-line {
+    margin: auto;
+    width: 70px;
+    height: 3px;
+    background: #910A2D;
+}
+.header3-card-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.head3-heading {
+    font-family: 'mazda';
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #101015;
+    margin: 8px 0;
+}
+.head3-year {
+    font-family: 'mazda';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+}
+/* HEADER 4 */
+.the-line {
+    width: 85%;
+    height: 3px;
+    background: #E3E3E3;
+    margin: 78px auto 53px;
+}
+.general-heading {
+    font-family: 'mazda';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.12em;
+    color: #101015;
+    text-align: center;
+}
+.heading4-line {
+    margin: 27px auto 39px;
+    width: 70px;
+    height: 3px;
+    background: #910A2D;
+}
+.header4-boxes {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 40px auto 25px;
+}
+.head4-title {
+    font-family: 'mazda';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 148.7%;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #565656;
+    text-transform: uppercase;
+}
+.head4-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #101015;
+    padding: 20px 0;
+    border-bottom: 1px dashed #939393;
+}
+.head4-text4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #101015;
+    padding: 20px 0;
+}
+.bullet-pin {
+    margin-right: 14px;
+}
+.head4-mini-box {
+    display: flex;
+    align-items: center;
+}
+/* HEADER 5 */
+.header5-box1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 47px 0 40px;
+    gap: 30px;
+}
+.header5-box2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.header5-img1 {
+    padding: 17px 22px;
+    border-radius: 50%;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+}
+.header5-title {
+    text-align: center;
+    color: #565656;
+    font-size: 20px;
+    font-family: 'mazda';
+    line-height: 148.7%;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.header5-text {
+    color: var(--black, #101015);
+    font-size: 18px;
+    font-family: 'mazda';
+    line-height: 135.2%;
+}
+.head5-card {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+.header5-footer {
+    display: flex;
+    align-items: center;
+    margin: 74px auto;
+}
+.head5-footer-box1 {
+    background: url('../imgs/h5-foot-img1.png') center center / cover no-repeat;
+    min-height: 109px;
+    display: flex;
+    align-items: center;
+}
+.head5-footer-box2 {
+    background: url('../imgs/h5-foot-img2.png'), lightgray 50% / cover no-repeat;
+    min-height: 109px;
+    display: flex;
+    align-items: center;
+}
+.head5-footer-box3 {
+    background: url('../imgs/h5-foot-img3.png') center center / cover no-repeat;
+    min-height: 109px;
+    display: flex;
+    align-items: center;
+}
+.head5-text1 {
+    color: #FFF;
+    font-size: 46px;
+    font-family: 'mazda';
+    line-height: 53px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.head5-text2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.head5-text3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 21px;
+    margin: 0 auto;
+}
+.header5-footer-subs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.displaynone {
+    display: none;
+}
+.displayflex {
+    display: flex;
+}
+/* HEADER 6 */
+.header--4 {
+    background: #F5F5F5;
+}
+.header-title {
+    text-align: center;
+    font-family: 'mazda';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 3.6px;
+    color: #101015;
+    margin: 62px auto 15px;
+}
+.header6-heading {
+    font-weight: 400;
+    font-family: 'mazda';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #313131;
+}
+.header6-content {
+    display: flex;
+    gap: 30px;
+}
+.header6-box1,
+.header6-box2 {
+    border-top: 3px solid #910A2D;
+    padding: 35px 44px 67px 50px;
+    width: 48%;
+    background: #FFFFFF;
+    margin: 36px auto 77px;
+}
+.head6-text3-box {
+    display: flex;
+    gap: 29px;
+}
+.h6-links {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'mazda';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #910A2D;
+}
+.head6-text1 {
+    font-weight: 700;
+    font-family: 'mazda';
+    font-size: 22px;
+    line-height: 32px;
+    color: #101015;
+}
+.head6-text2 {
+    font-family: 'mazda';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #313131;
+    margin: 11px 0 20px;
+}
+.head6-text3 {
+    font-family: 'mazda';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    color: #101015;
+}
+.head6-text5 {
+    font-weight: 700;
+    font-family: 'mazda';
+    font-size: 22px;
+    line-height: 32px;
+    color: #101015;
+    margin: 8px 0 11px;
+}
+/* HEADER 7 */
+.header7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 95px;
+}
+.header7-content {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 45px;
+    margin: 50px auto 53px;
+    margin-right: 50px;
+}
+.header7-content-box {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 48px;
+}
+.header7-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.head7-num {
+    color: #FFF;
+    font-size: 80px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 108.357%;
+    letter-spacing: -2.4px;
+}
+.head7-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #313131;
+}
+.head7-last-text {
+    font-family: 'mazda';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+}
+/* FOOTER 1 */
+.footer--1 {
+    padding: 46px 0 82px;
+    background: url('../imgs/footer-back.png'), lightgray 0px -232.25px / 100% 304.97% no-repeat;
+}
+.footer1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_form {
+    padding: 22px 40px;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: rgba(255, 255, 255, 0.28);
+}
+.footer_form input {
+    padding: 9px 50px 12px 15px;
+    color: #4F4F4F;
+    font-size: 16px;
+    font-family: 'mazda';
+    line-height: 24px;
+    border-radius: 2px;
+    border: none;
+}
+.footer_form button {
+    padding: 6px 24px 7px 35px;
+    color: #FFF;
+    font-size: 13px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1.365px;
+    text-transform: uppercase;
+    background: #14141B;
+    border-radius: 3px;
+    border: none;
+}
+.footer-form-special {
+    margin: 0 15px 0 19px;
+}
+.footer1-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+.footer1-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 30px;
+    margin: 5px auto 34px
+}
+/* FOOTER 2 */
+.footer2 {
+    display: flex;
+    align-items: center;
+    background: #F4F4F4;
+    margin: 68px auto 77px;
+}
+.footer2-img {
+    background: url('../imgs/footer2-img.png')center center / cover no-repeat;
+    width: 320px;
+    height: 239px;
+}
+.footer2-title {
+    background: url('../imgs/action.png');
+    font-family: 'mazda';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 8px 32px 11px 21px;
+    width: 119px;
+    margin-top: 20px;
+}
+.footer2-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer2-content-box2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer2-text {
+    font-family: 'mazda';
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 31px;
+    color: #101015;
+    margin: 39px 50px 0 68px;
+}
+.footer2-line {
+    width: 100%;
+    height: 2px;
+    background: #CECECE;
+}
+.foot2-mini-text {
+    color: #4E4E4E;
+    font-size: 13px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 1.365px;
+    text-transform: uppercase;
+}
+/* FOOTER 3 */
+.footer--3 {
+    background: #14141B;
+}
+.footer3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 0 78px;
+}
+.footer3-box1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.foot3-link {
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 294.7%;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+}
+.foot3-title {
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 200.7%;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+}
+.foot3-line {
+    width: 100%;
+    height: 2px;
+    background: rgba(208, 208, 208, 0.29);
+}
+.foot3-line2 {
+    width: 100%;
+    height: 2px;
+    background: rgba(208, 208, 208, 0.29);
+    margin: 8px 0 15px;
+}
+.foot3-inner-box {
+    display: flex;
+    gap: 80px;
+}
+.foot3-inner-link {
+    color: #8E8E8E;
+    font-size: 15px;
+    font-family: 'mazda';
+    font-weight: 400;
+    line-height: 183.7%;
+}
+.foot3-box3-text {
+    color: #8E8E8E;
+    font-size: 15px;
+    font-family: 'mazda';
+    font-weight: 400;
+    line-height: 172.2%;
+}
+.foot3-email {
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 248.2%;
+    margin: 6px 0 22px;
+}
+.foot3-button {
+    color: #FFF;
+    font-size: 13px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 248.2%;
+    letter-spacing: 1.365px;
+    text-transform: uppercase;
+    background: #14141B;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    padding: 7px 20px;
+}
+.foot3-num {
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 84.2%;
+    text-transform: uppercase;
+}
+.foot3-box2-inner-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* PAGE 2 ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* HEADER 1 */
+.header--1-p2 {
+    background: url('../imgs/page2-header-back.png') center center / cover no-repeat;
+}
+.header1-p2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 57px 0 67px;
+}
+.head1-spec-text {
+    color: #BABABA;
+}
+.head1-text1-p2 {
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'mazda';
+    font-weight: 400;
+    line-height: 147.7%;
+}
+.head1-text2-p2 {
+    color: #FFF;
+    font-size: 42px;
+    font-family: 'mazda';
+    font-weight: 700;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    margin: 17px 0 15px;
+}
+.head1-text3-p2 {
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 147.7%;
+}
+/* HEADER 2 */
+.header2-p2 {
+    padding: 20px 0;
+}
+.header2-content-p2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.head2-text-p2 {
+    color: #313131;
+    font-size: 18px;
+    font-family: 'mazda';
+    font-weight: 400;
+    line-height: 155%;
+}
+.head2-sp-text-p2 {
+    color: #000;
+    font-size: 18px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 155%;
+    background: #F5F5F5;
+    padding: 22px 40px;
+    border-left: 3px solid #910A2D;
+}
+/* HEADER 3 */
+.header3-p2 {
+    display: flex;
+    align-items: center;
+    margin: 30px auto 71px;
+}
+.head3-img-p2 {
+    width: 50%;
+    height: 300px;
+    background: url('../imgs/page2-header2-back.png') center center / cover no-repeat;
+}
+.head3-form-p2 {
+    width: 50%;
+    height: 300px;
+    background: #F5F5F5;
+    padding: 48px 91px 55px 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h3-form-p2 {
+    padding: 12px 200px 14px 20px;
+    border-radius: 2px;
+    border: 1px solid #DDD;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%), #FFF;
+    color: #4F4F4F;
+    font-size: 16px;
+    font-family: 'mazda';
+    font-weight: 400;
+    line-height: 150.2%;
+}
+.h3-form2-p2 {
+    padding: 12px 200px 14px 20px;
+    border-radius: 2px;
+    border: 1px solid #DDD;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%), #FFF;
+    margin: 14px 0 27px;
+    color: #4F4F4F;
+    font-size: 16px;
+    font-family: 'mazda';
+    font-weight: 400;
+    line-height: 150.2%;
+}
+.head3-button-p2 {
+    padding: 6px 25px 7px 24px;
+    border-radius: 3px;
+    background: #14141B;
+    color: #FFF;
+    font-size: 13px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 248.2%;
+    letter-spacing: 1.365px;
+    text-transform: uppercase;
+}
+.comment-button-p2 {
+    padding: 17px;
+    background: #910A2D;
+    border-radius: 50%;
+}
+/* HEADER 4 */
+.header--4-p2 {
+    background: #F5F5F5;
+}
+.header4-p2 {
+    padding: 62px 0 55px;
+}
+.head4-title-p2 {
+    margin-bottom: 77px;
+}
+.gen-heading-p2 {
+    color: #101015;
+    font-size: 30px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.h4-inner-box-sp-p2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #939393;
+    padding: 14px 42px 14px 37px;
+}
+.h4-inner-box1-p2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 42px 18px 37px;
+}
+.h4-inner-box-p2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px dashed #939393;
+    margin: 0 42px 0 37px;
+    padding: 14px 0 14px 0;
+}
+.h4-inner-text1-p2 {
+    color: #000;
+    font-size: 16px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 135.2%;
+    text-transform: uppercase;
+}
+.h4-inner-text-p2 {
+    color: #313131;
+    font-size: 18px;
+    font-family: 'mazda';
+    font-weight: 400;
+    line-height: 135.2%;
+}
+.head4-box-p2 {
+    background: #FFF;
+    width: 100%;
+    height: 100%;
+    border-top: 3px solid #910A2D;
+}
+.head4-content-p2 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 30px;
+}
+.head4-box2-p2 {
+    padding-bottom: 50px;
+}
+/* HEADER 5  */
+.header5-p2 {
+    padding: 62px 0 82px;
+}
+.head5-line-p2 {
+    margin: 28px auto 56px;
+}
+.head5-content-p2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.page2-line {
+    width: 100%;
+    height: 2px;
+    background: #DFDFDF;
+}
+.head5-box-title-p2 {
+    width: 20%;
+    color:#101015;
+    font-size: 20px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 135.2%;
+}
+.head5-text-p2 {
+    width: 80%;
+    color: #313131;
+    font-size: 18px;
+    font-family: 'mazda';
+    font-weight: 400;
+    line-height: 155%;
+}
+.head5-inner-box-p2 {
+    display: flex;
+    align-items: baseline;
+    gap: 50px;
+}
+.head5-inner-box-p2 {
+    padding: 20px 0;
+}
+.head5-button-p2 {
+    color: #FFF;
+    font-size: 13px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 248.2%;
+    letter-spacing: 1.365px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #14141B;
+    margin: 35px 0 47px;
+    padding: 6px 28px 6px 34px;
+}
+.head5-last-text-p2 {
+    color:#101015;
+    font-size: 18px;
+    font-family: 'mazda';
+    font-weight: 400;
+    line-height: 155%;
+    padding: 24px 63px 32px 44px;
+    border: 3px solid #910A2D;
+}
+/* HEADER 6 */
+.header--6-p2 {
+    padding: 62px 0 130px;
+    background: #F5F5F5;
+}
+.head6-line-p2 {
+    margin: 28px auto 47px;
+}
+.head6-content-p2 {
+    display: flex;
+    align-items: baseline;
+    background: #FFFFFF;
+}
+.head6-text-p2 {
+    color: #313131;
+    font-size: 18px;
+    font-family: 'mazda';
+    font-weight: 400;
+    line-height: 150.2%;
+}
+.head6-box1-p2 {
+    width: 50%;
+    padding: 37px 36px 60px 52px;
+    border-right: 1px dashed #939393;
+}
+.head6-box2-p2 {
+    width: 50%;
+    padding: 37px 62px 95px 47px;
+}
+
+/* PAGE 3     ////////////////////////////////////////////////////////////////////////////////////// */
+
+/* HEADER 1 */
+.header--1-p3 {
+    background: url('../imgs/header1-back-p3.png'), lightgray 50% / cover no-repeat;
+}
+.header1-p3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 77px 0 107px;
+}
+/* HEADER 2 */
+.header--2-p3 {
+    background: #F5F5F5;
+}
+.h6-links-p3 {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'mazda';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #3A3A3A;
+}
+/* HEADER 4 */
+.header--4-p3 {
+    background: #F5F5F5;
+}
+.header4-p3 {
+    padding: 62px 0 97px;
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+}
+.header4-title-p3 {
+    color: #101015;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'mazda';
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+.header4-content-p3 {
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+}
+.head4-box1-p3 {
+    width: 50%;
+    border-top: 3px solid #910A2D;
+    background: #FFF;
+    padding: 40px 42px 40px 37px;
+}
+.head4-box2-p3 {
+    width: 50%;
+    border-top: 3px solid #910A2D;
+    background: #FFF;
+    padding: 40px 21px 40px 38px;
+}
+.head4-innerbox-p3 {
+    border-bottom: 1px dashed #939393;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.head4-innerbox2-p3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.head4-text-p3 {
+    color: #313131;
+    font-size: 18px;
+    font-family: 'mazda';
+    font-weight: 400;
+    line-height: 135.2%;
+}
+.head4-text2-p3 {
+    color: #910A2D;
+    font-size: 18px;
+    font-family: 'mazda';
+    font-weight: 400;
+    line-height: 135.2%;
+}
+/* MEDIA */
+@media(max-width: 1450px ){
+    .comment-button-p2 {display: none;}
+    .header3-p2 {flex-direction: column;}
+    .head3-img-p2 {width: 80%;}
+    .head3-form-p2 {width: 80%;}
+}
+@media(max-width: 1350px) {
+    .navbar1 {gap: 0;}
+}
+@media(max-width: 1180px) {
+    .header4-content-p3 {flex-direction: column;align-items: center;}
+    .head4-box1-p3 {width: 90%;}
+    .head4-box2-p3 {width: 90%;}
+    .navbar--number {display: none;}
+    .icons-box {display: none;}
+    .head2-card-box {flex-direction: column;}
+    .header3-card-box {flex-direction: column;}
+    .header3 {align-items: center;}
+    .header3-card {display: flex;align-items: center;justify-content: space-between;}
+    .header5-box1 {flex-direction: column;align-items: baseline;}
+    .header5-box2 {flex-direction: column;align-items: baseline;}
+    .header5-footer {flex-direction: column;}
+    .displaynone {display: flex;}
+    .displayflex {display: none;}
+    .head5-footer-box1 {background: #910A2D;}
+    .head5-footer-box3 {background: #14141B;}
+    .head5-footer-box1 {width: 100%;}
+    .head5-footer-box3 {width: 100%;}
+    .head5-text1 {text-align: center;}
+    .head5-text2 {text-align: center;}
+    .head5-text3 {text-align: center;}
+    .header6-content {flex-direction: column;align-items: center;}
+    .header6-box1,
+    .header6-box2 {margin: 0; width: 90%;}
+    .header7-content-box {flex-direction: column;}
+    .header7-box {flex-direction: column;align-items: center;text-align: center;}
+    .header7-content {margin-right: 0;}
+    .footer2 {flex-direction: column;}
+    .footer2-content-box2 {flex-direction: column;}
+    .footer2-text {margin: 0 auto;text-align: center;width: 90%;}
+    .footer3 {flex-direction: column;row-gap: 30px;text-align: center;}
+    .foot3-inner-box {flex-direction: column;text-align: center;}
+    .footer-paper--plane {margin-left: 30px;}
+    .head4-content-p2 {flex-direction: column;}
+    .h4-inner-box1-p2 {flex-direction: column;}
+    .h4-inner-box-sp-p2 {flex-direction: column;}
+    .h4-inner-box-p2 {flex-direction: column;}
+}
+@media(max-width: 992px) {
+    .header4-boxes {flex-direction: column;}
+    .footer_form {flex-direction: column;display: flex;gap: 10px;}
+    .footer-form-special {margin: 0;}
+    .head6-content-p2 {flex-direction: column;}
+    .head6-box1-p2 {width: 90%;margin: 0 auto;}
+    .head6-box1-p2 {border-right: none;border-bottom: 1px dashed #939393;}
+    .head6-box2-p2 {width: 90%;margin: 0 auto;}
+    .header1-p2 {text-align: center;}
+    .head5-inner-box-p2 {flex-direction: column;align-items: center;text-align: center;}
+    .head5-box-title-p2 {width: 100%;}
+    .head5-text-p2 {width: 100%;}
+    .head5-last-text-p2 {text-align: center;padding: 10px;}
+}
+@media(max-width: 768px) {
+    .navbar--send__button {display: none;}
+}
+@media(max-width: 678px) {
+    .head5-text1 {font-size: 25px;}
+    .head5-text2 {font-size: 18px;}
+    .head5-text3 {font-size: 18px;}
+    .navbar--adress__text {display: none;}
+    .navbar-burger {display: flex;}
+    .general-heading {font-size: 25px;}
+    .header4-title-p3 {font-size: 24px;}
+    .head4-innerbox-p3 {flex-direction: column;}
+    .head4-innerbox2-p3 {flex-direction: column;}
+    .h3-form-p2 {padding: 10px 100px 10px 10px;}
+    .h3-form2-p2 {padding: 10px 100px 10px 10px;}
+    .head4-box1-p3 {padding: 10px;text-align: center;}
+    .head4-box2-p3 {padding: 10px;text-align: center;}
+}
+@media(max-width: 576px) {
+    .header5-text {font-size: 15px;}
+    .navbar2 {justify-content: center;}
+    .head6-box1-p2 {width: 100%;padding: 15px;}
+    .head6-box2-p2 {width: 100%;padding: 15px;}
+}
+@media(max-width: 480px) {
+    .navbar--list {flex-direction: column;}
+    .header1--content {text-align: center;}
+    .header1--title {font-size: 16px;}
+    .header1--heading {font-size: 40px;}
+    .header1--text {font-size: 14px;}
+    .header3-card {display: inline;}
+    .footer2-img {width: 90%;}
+    .head1-text1-p2 {font-size: 13px;}
+    .head1-text2-p2 {font-size: 30px;}
+    .head1-text3-p2 {font-size: 15px;}
+    .h3-form-p2 {padding: 10px 50px 10px 10px;}
+    .h3-form2-p2 {padding: 10px 50px 10px 10px;}
+}
+@media(max-width: 375px) {
+    .h3-form-p2 {padding: 10px 20px 10px 10px;}
+    .h3-form2-p2 {padding: 10px 20px 10px 10px;}
+}
+/* END            /             /             /             /             /             /            */
