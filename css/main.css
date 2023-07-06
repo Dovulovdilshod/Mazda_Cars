@@ -20,24 +20,15 @@ p {
 *::after {
     font-family: 'icon';
     font-weight: 400;
+    color: white;
 }
 .paper--plane::before {
     content: '\f1d8';
-    font-family: 'icon';
-    color: white;
-    font-weight: 400;
 }
 .phone::before {
     content: '\f095';
-    font-family: 'icon';
-    color: white;
-    font-weight: 400;
 }
-.paper--plane {
-    padding: 14px;
-    border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
+.paper--plane,
 .phone {
     padding: 14px;
     border-radius: 50%;
@@ -45,39 +36,21 @@ p {
 }
 .left-arrow::before {
     content: '\f060';
-    font-family: 'icon';
-    color: white;
-    font-weight: 400;
 }
 .right-arrow::before {
     content: '\f061';
-    font-family: 'icon';
-    color: white;
-    font-weight: 400;
 }
 .foot-right-arrow::before {
     content: '\f061';
-    font-family: 'icon';
-    color: white;
-    font-weight: 400;
 }
 .footer-phone::before {
     content: '\f1d8';
-    font-family: 'icon';
-    color: white;
-    font-weight: 400;
 }
 .footer-paper--plane::before {
     content: '\f095';
-    font-family: 'icon';
-    color: white;
-    font-weight: 400;
 }
 .comment-button-p2::before {
     content: '\f4a6';
-    font-family: 'icon';
-    color: #fff;
-    font-weight: 400;
 }
 .comment-button-p2 {
     position: relative;
@@ -182,7 +155,7 @@ p {
     background: white;
 }
 /* NAVBAR 2 */
-.navbar2 {
+.navbar {
     display: flex;
     justify-content: start;
     background: #FFFFFF;
@@ -206,7 +179,7 @@ p {
     width: 100%;
 }
 /* HEADER 1 */
-.header--1 {
+.header {
     min-height: 506px;
     background: url('../imgs/header1-back.png') center center / cover no-repeat;
     display: flex;
@@ -239,11 +212,11 @@ p {
     line-height: 26px;
 }
 /* HEADER 2 */
-.header--2 {
+.cards {
     background: #f5f5f5;
     padding: 57px auto 71px;
 }
-.header2 {
+.cards-content {
     min-height: 593px;
     display: flex;
     flex-direction: column;
@@ -286,7 +259,7 @@ p {
     gap: 15px;
 }
 /* HEADER 3 */
-.header3 {
+.cars {
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -307,7 +280,7 @@ p {
     height: 3px;
     background: #910A2D;
 }
-.header3-card-box {
+.cars-card-box {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -352,7 +325,7 @@ p {
     height: 3px;
     background: #910A2D;
 }
-.header4-boxes {
+.technics-boxes {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -392,13 +365,13 @@ p {
     align-items: center;
 }
 /* HEADER 5 */
-.header5-box1 {
+.advantages-box1 {
     display: flex;
     justify-content: space-between;
     margin: 47px 0 40px;
     gap: 30px;
 }
-.header5-box2 {
+.advantages-box2 {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -418,7 +391,7 @@ p {
     letter-spacing: 2.4px;
     text-transform: uppercase;
 }
-.header5-text {
+.advantages-text {
     color: var(--black, #101015);
     font-size: 18px;
     font-family: 'mazda';
@@ -429,7 +402,8 @@ p {
     align-items: center;
     gap: 19px;
 }
-.header5-footer {
+/* head5 footer */
+.advantages-img {
     display: flex;
     align-items: center;
     margin: 74px auto;
@@ -479,7 +453,7 @@ p {
     line-height: 21px;
     margin: 0 auto;
 }
-.header5-footer-subs {
+.advantages-img-subs {
     width: 100%;
     display: flex;
     align-items: center;
@@ -491,7 +465,7 @@ p {
     display: flex;
 }
 /* HEADER 6 */
-.header--4 {
+.repair {
     background: #F5F5F5;
 }
 .header-title {
@@ -502,9 +476,9 @@ p {
     line-height: 44px;
     letter-spacing: 3.6px;
     color: #101015;
-    margin: 62px auto 15px;
+    padding: 62px 0 15px;
 }
-.header6-heading {
+.repair-heading {
     font-weight: 400;
     font-family: 'mazda';
     font-size: 18px;
@@ -512,23 +486,23 @@ p {
     text-align: center;
     color: #313131;
 }
-.header6-content {
+.repair-inner-content {
     display: flex;
     gap: 30px;
 }
-.header6-box1,
-.header6-box2 {
+.repair-box1,
+.repair-box2 {
     border-top: 3px solid #910A2D;
     padding: 35px 44px 67px 50px;
     width: 48%;
     background: #FFFFFF;
     margin: 36px auto 77px;
 }
-.head6-text3-box {
+.repair-text3-box {
     display: flex;
     gap: 29px;
 }
-.h6-links {
+.repair-links {
     display: flex;
     flex-wrap: nowrap;
     font-family: 'mazda';
@@ -537,14 +511,14 @@ p {
     line-height: 17px;
     color: #910A2D;
 }
-.head6-text1 {
+.repair-text1 {
     font-weight: 700;
     font-family: 'mazda';
     font-size: 22px;
     line-height: 32px;
     color: #101015;
 }
-.head6-text2 {
+.repair-text2 {
     font-family: 'mazda';
     font-weight: 400;
     font-size: 18px;
@@ -552,14 +526,14 @@ p {
     color: #313131;
     margin: 11px 0 20px;
 }
-.head6-text3 {
+.repair-text3 {
     font-family: 'mazda';
     font-weight: 700;
     font-size: 22px;
     line-height: 24px;
     color: #101015;
 }
-.head6-text5 {
+.repair-text5 {
     font-weight: 700;
     font-family: 'mazda';
     font-size: 22px;
@@ -568,28 +542,30 @@ p {
     margin: 8px 0 11px;
 }
 /* HEADER 7 */
-.header7 {
+.details {
+    background: #F5F5F5;
+}
+.details-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 95px;
 }
-.header7-content {
+.details-inner-content {
     display: flex;
     align-items: baseline;
     flex-direction: column;
     gap: 45px;
     margin: 50px auto 53px;
-    margin-right: 50px;
 }
-.header7-content-box {
+.details-content-box {
     display: flex;
     align-items: baseline;
     justify-content: center;
     gap: 48px;
 }
-.header7-box {
+.details-box {
     width: 100%;
     display: flex;
     align-items: center;
@@ -609,7 +585,7 @@ p {
     line-height: 27px;
     color: #313131;
 }
-.head7-last-text {
+.details-last-text {
     font-family: 'mazda';
     font-weight: 700;
     font-size: 20px;
@@ -617,11 +593,11 @@ p {
     text-align: center;
 }
 /* FOOTER 1 */
-.footer--1 {
+.form {
     padding: 46px 0 82px;
     background: url('../imgs/footer-back.png'), lightgray 0px -232.25px / 100% 304.97% no-repeat;
 }
-.footer1 {
+.form-content {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -658,7 +634,7 @@ p {
 .footer-form-special {
     margin: 0 15px 0 19px;
 }
-.footer1-heading {
+.form-heading {
     color: #FFF;
     text-align: center;
     font-size: 30px;
@@ -668,87 +644,31 @@ p {
     letter-spacing: 3.6px;
     text-transform: uppercase;
 }
-.footer1-text {
+.form-text {
     color: #FFF;
     text-align: center;
     font-size: 18px;
     font-family: 'mazda';
     font-weight: 700;
     line-height: 30px;
-    margin: 5px auto 34px
-}
-/* FOOTER 2 */
-.footer2 {
-    display: flex;
-    align-items: center;
-    background: #F4F4F4;
-    margin: 68px auto 77px;
-}
-.footer2-img {
-    background: url('../imgs/footer2-img.png')center center / cover no-repeat;
-    width: 320px;
-    height: 239px;
-}
-.footer2-title {
-    background: url('../imgs/action.png');
-    font-family: 'mazda';
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 27px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    padding: 8px 32px 11px 21px;
-    width: 119px;
-    margin-top: 20px;
-}
-.footer2-content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.footer2-content-box2 {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-.footer2-text {
-    font-family: 'mazda';
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 31px;
-    color: #101015;
-    margin: 39px 50px 0 68px;
-}
-.footer2-line {
-    width: 100%;
-    height: 2px;
-    background: #CECECE;
-}
-.foot2-mini-text {
-    color: #4E4E4E;
-    font-size: 13px;
-    font-family: 'mazda';
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: 1.365px;
-    text-transform: uppercase;
+    margin: 5px auto 34px;
 }
 /* FOOTER 3 */
-.footer--3 {
+.footer {
     background: #14141B;
 }
-.footer3 {
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 48px 0 78px;
 }
-.footer3-box1 {
+.footer-box1 {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
 }
-.foot3-link {
+.foot-link {
     color: #FFF;
     font-size: 15px;
     font-family: 'mazda';
@@ -757,7 +677,7 @@ p {
     letter-spacing: 0.75px;
     text-transform: uppercase;
 }
-.foot3-title {
+.foot-title {
     color: #FFF;
     font-size: 15px;
     font-family: 'mazda';
@@ -766,36 +686,36 @@ p {
     letter-spacing: 0.75px;
     text-transform: uppercase;
 }
-.foot3-line {
+.foot-line {
     width: 100%;
     height: 2px;
     background: rgba(208, 208, 208, 0.29);
 }
-.foot3-line2 {
+.foot-line2 {
     width: 100%;
     height: 2px;
     background: rgba(208, 208, 208, 0.29);
     margin: 8px 0 15px;
 }
-.foot3-inner-box {
+.foot-inner-box {
     display: flex;
     gap: 80px;
 }
-.foot3-inner-link {
+.foot-inner-link {
     color: #8E8E8E;
     font-size: 15px;
     font-family: 'mazda';
     font-weight: 400;
     line-height: 183.7%;
 }
-.foot3-box3-text {
+.foot-box3-text {
     color: #8E8E8E;
     font-size: 15px;
     font-family: 'mazda';
     font-weight: 400;
     line-height: 172.2%;
 }
-.foot3-email {
+.foot-email {
     color: #FFF;
     font-size: 15px;
     font-family: 'mazda';
@@ -803,7 +723,7 @@ p {
     line-height: 248.2%;
     margin: 6px 0 22px;
 }
-.foot3-button {
+.foot-button {
     color: #FFF;
     font-size: 13px;
     font-family: 'mazda';
@@ -816,7 +736,7 @@ p {
     border: 1px solid rgba(255, 255, 255, 0.30);
     padding: 7px 20px;
 }
-.foot3-num {
+.foot-num {
     color: #FFF;
     font-size: 18px;
     font-family: 'mazda';
@@ -824,7 +744,7 @@ p {
     line-height: 84.2%;
     text-transform: uppercase;
 }
-.foot3-box2-inner-box {
+.foot-box2-inner-box {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -1221,19 +1141,24 @@ p {
 @media(max-width: 1350px) {
     .navbar1 {gap: 0;}
 }
-@media(max-width: 1180px) {
-    .header4-content-p3 {flex-direction: column;align-items: center;}
-    .head4-box1-p3 {width: 90%;}
-    .head4-box2-p3 {width: 90%;}
+@media(max-width: 1200px) {
+    .navbar--adress__text {display: none;}
     .navbar--number {display: none;}
+    .navbar-burger {display: flex;}
+    .navbar--send__button {display: none;}
+}
+@media(max-width: 1180px) {
     .icons-box {display: none;}
     .head2-card-box {flex-direction: column;}
-    .header3-card-box {flex-direction: column;}
-    .header3 {align-items: center;}
+    .cars-card-box {flex-direction: column;}
+    .cars {align-items: center;}
+    .head4-box1-p3 {width: 90%;}
+    .header4-content-p3 {flex-direction: column;align-items: center;}
+    .head4-box2-p3 {width: 90%;}
     .header3-card {display: flex;align-items: center;justify-content: space-between;}
-    .header5-box1 {flex-direction: column;align-items: baseline;}
-    .header5-box2 {flex-direction: column;align-items: baseline;}
-    .header5-footer {flex-direction: column;}
+    .advantages-box1 {flex-direction: column;align-items: baseline;}
+    .advantages-box2 {flex-direction: column;align-items: baseline;}
+    .advantages-img {flex-direction: column;}
     .displaynone {display: flex;}
     .displayflex {display: none;}
     .head5-footer-box1 {background: #910A2D;}
@@ -1243,17 +1168,16 @@ p {
     .head5-text1 {text-align: center;}
     .head5-text2 {text-align: center;}
     .head5-text3 {text-align: center;}
-    .header6-content {flex-direction: column;align-items: center;}
-    .header6-box1,
-    .header6-box2 {margin: 0; width: 90%;}
-    .header7-content-box {flex-direction: column;}
-    .header7-box {flex-direction: column;align-items: center;text-align: center;}
-    .header7-content {margin-right: 0;}
+    .repair-inner-content {flex-direction: column;align-items: center;}
+    .repair-box1,
+    .repair-box2 {margin: 0; width: 90%;}
+    .details-content-box {flex-direction: column;align-items: center;}
+    .details-box {flex-direction: column;align-items: center;text-align: center;}
     .footer2 {flex-direction: column;}
     .footer2-content-box2 {flex-direction: column;}
     .footer2-text {margin: 0 auto;text-align: center;width: 90%;}
-    .footer3 {flex-direction: column;row-gap: 30px;text-align: center;}
-    .foot3-inner-box {flex-direction: column;text-align: center;}
+    .footer-content {flex-direction: column;row-gap: 30px;text-align: center;}
+    .foot-inner-box {flex-direction: column;text-align: center;}
     .footer-paper--plane {margin-left: 30px;}
     .head4-content-p2 {flex-direction: column;}
     .h4-inner-box1-p2 {flex-direction: column;}
@@ -1261,7 +1185,7 @@ p {
     .h4-inner-box-p2 {flex-direction: column;}
 }
 @media(max-width: 992px) {
-    .header4-boxes {flex-direction: column;}
+    .technics-boxes {flex-direction: column;}
     .footer_form {flex-direction: column;display: flex;gap: 10px;}
     .footer-form-special {margin: 0;}
     .head6-content-p2 {flex-direction: column;}
@@ -1275,14 +1199,11 @@ p {
     .head5-last-text-p2 {text-align: center;padding: 10px;}
 }
 @media(max-width: 768px) {
-    .navbar--send__button {display: none;}
 }
 @media(max-width: 678px) {
     .head5-text1 {font-size: 25px;}
     .head5-text2 {font-size: 18px;}
     .head5-text3 {font-size: 18px;}
-    .navbar--adress__text {display: none;}
-    .navbar-burger {display: flex;}
     .general-heading {font-size: 25px;}
     .header4-title-p3 {font-size: 24px;}
     .head4-innerbox-p3 {flex-direction: column;}
@@ -1293,13 +1214,13 @@ p {
     .head4-box2-p3 {padding: 10px;text-align: center;}
 }
 @media(max-width: 576px) {
-    .header5-text {font-size: 15px;}
-    .navbar2 {justify-content: center;}
+    .advantages-text {font-size: 15px;}
+    .navbar {justify-content: center;}
     .head6-box1-p2 {width: 100%;padding: 15px;}
     .head6-box2-p2 {width: 100%;padding: 15px;}
+    .navbar--list {flex-direction: column;}
 }
 @media(max-width: 480px) {
-    .navbar--list {flex-direction: column;}
     .header1--content {text-align: center;}
     .header1--title {font-size: 16px;}
     .header1--heading {font-size: 40px;}
