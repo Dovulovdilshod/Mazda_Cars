@@ -150,7 +150,6 @@ p {
     justify-content: center;
     gap: 10px;
     padding: 10px;
-    background: blue;
     z-index: 3;
 }
 .navbar-burger span {
@@ -193,6 +192,10 @@ p {
     letter-spacing: 1.68px;
     text-transform: uppercase;
     text-align: center;
+    opacity: 0.7;
+}
+.navbar-link:hover {
+    opacity: 1;
 }
 @keyframes navList2{
 0%{
